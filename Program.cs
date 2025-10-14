@@ -3,13 +3,13 @@ using Newtonsoft.Json.Linq;
 
 class Program
 {
+    // Azure resource details
     private static string endpoint = "https://rg-ai-language-service.cognitiveservices.azure.com/";
     private static string apiKey = "";
 
     // Entry point
     static async Task Main()
     {
-        // Azure resource details
         Console.WriteLine("Enter text to analyze:");
         string text = Console.ReadLine();
 
@@ -59,3 +59,4 @@ class Program
         }
     }
 }
+
